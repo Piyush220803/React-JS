@@ -59,6 +59,23 @@
 4. What does "immutable" mean? Are props immutable? Is state immutable?
    Unchanging. Props are immutable. State is mutable.
 
+**array.map()**
+
+1. What does the `.map()` array method do?
+   Returns a new array. Whatever gets returned from the callback
+   function provided is placed at the same index in the new array.
+   Usually we take the items from the original array and modify them
+   in some way.
+
+2. What do we usually use `.map()` for in React?
+   Convert an array of raw data into an array of JSX elements
+   that can be displayed on the page.
+
+3. Why is using `.map()` better than just creating the components
+   manually by typing them out?
+   It makes our code more "self-sustaining" - not requiring
+   additional changes whenever the data changes.
+
 **useState - Changing state with a callback function**
 
 Note: if you ever need the old value of state
